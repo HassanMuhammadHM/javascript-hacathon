@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <p class="logo" >Personal Blogging App</p>
+        <ul>
+            <li><a href="../profile/profile.html">Profile update</a></li>
+        </ul>
+    </nav>
+    <div class="title"><h1>Dashboard</h1></div>
+
+    <div class="container">
+        <div class="card">
+            <form id="post_form">
+                <div class="input-post">
+                    <!-- <label for="exampleInputEmail1" class="form-label">Post Title</label> -->
+                    <input id = "post_title" type="text" class="form-control" placeholder="Title">
+
+                </div>
+                <div class="input-des">
+                    <!-- <label for="post_desc" class="form-label">Post Description</label> -->
+                    <textarea id="post_desc" class="form-control" rows="4" placeholder="Description"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary" id="Publish-btn">Publish</button>
+            </form>
+
+
+
+        </div>
+    
+</body>
+<script type="module" src="dashboard.js"></script>
+</html>

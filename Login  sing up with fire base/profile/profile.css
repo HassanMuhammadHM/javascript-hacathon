@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  serif;
+}
+
+html,
+body {
+    height: 100%;
+    height: 100%;
+    background-color:#eaeaea ;
+}
+
+img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: #dfdfdf;
+    object-fit: cover;  
+    margin-bottom: 110px;
+}
+
+div {
+    width: 20em;
+    height: 25em;
+   
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+#main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    text-align: center;
+}
+
+input,
+img {
+    margin-bottom: 50px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: monospace;
+    padding: 5px 10px;
+    background-color: #7648f6;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    /* background-color:; */
+}
+nav.logo{
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    font-weight: 500;
+}
+nav{
+    background: #7648f6;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+}
+.card{
+    width: 20em;
+    height: 25em;
+    background-color: #fff;
+align-items: center;
+margin: auto;}
+#forget-password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    text-align: center;
+}
+#forget-password input{
+ padding: 10px 10px;
+ border-radius: 20px;
+ outline: none;
+}
+p{
+    padding: 5px;
+    font-size: large;
+    font: bold;
+}
+.card h1{
+    color: #7648f6;
+    margin-top:10px;
+}
+.main-profile{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#btn{
+    padding: 10px 10px;
+}

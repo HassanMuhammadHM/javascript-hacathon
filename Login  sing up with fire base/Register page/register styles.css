@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* bg color code #013243
+input bg color 1c4857*/
+
+h2 {
+    display: inline;
+    font-size: smaller;
+    color: white;
+
+}
+
+a {
+    float: right;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.form {
+    display: grid;
+    justify-content: center;
+    margin-top: 6em;
+}
+
+input {
+    width: 20em;
+    height: 39px;
+    border-radius: 12px;
+    /* font-size: 20px; */
+    color: white;
+    padding: 10px;
+    background-color: #1c4857;
+    outline: none;
+}
+
+
+::placeholder {
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+#register {
+    margin-top: 2em;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    outline: none;
+
+}
+
+.info {
+    margin: 5px 8px;
+    color: white;
+    /* padding: 10px; */
+}
+.login{
+    font-family: monospace;
+    font-weight: bold;
+
+}
+.register{
+    font-family: monospace;
+font-weight: bold;
+}
+.login-div{
+    color: white;
+    margin: auto;
+padding-top:2px ;
+cursor: pointer;
+ }

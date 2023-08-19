@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="profile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <title>profile</title>
+ 
+</head>
+<body>
+  
+  <nav>
+    <p class="logo" >Personal Blogging App</p>
+    <ul>
+        <li><a href="../index.html">Sign out</a></li>
+    </ul>
+</nav>
+<div class="main-profile">
+<div class="main-conatainer">
+    <div id="main">
+      
+      <h1>Profile</h1>
+        <img src="img/unknwon.jpg"  id="uploadImage"> <br>
+        <input type="file" size="35" id="input"  > 
+        <br>
+        <br>
+  <button type="submit" id="btn"> Uplode Picture</button>
+    </div>
+  </div>
+
+  <div id='forget-password'>
+      <div class="card" ;>
+    <h1>Forget password?</h1>
+       <br>
+       <p>Old Password</p>
+       <input type="text" size="30" id="input" placeholder="old password"  > 
+       <p>New password</p>
+       <input type="text" size="30" id="input" placeholder="New password"  > 
+       <p>Repeat Password</p>
+              <input type="text" size="30" id="input" placeholder="Repeat Password" > 
+      <br>
+      <br>
+<button type="submit" id="btn" > Change Password</button>
+</div>
+  </div>
+
+
+</div>
+</body>
+<script type="module" src="app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+</html>
